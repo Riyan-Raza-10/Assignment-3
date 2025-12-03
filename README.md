@@ -39,6 +39,7 @@ ________________________________________
 displayHangman(int mistakes)
 Draws the ASCII hangman depending on the number of incorrect guesses.
 main()
+
 Handles:
 •	Initializing the secret word
 •	Tracking guessed letters
@@ -57,6 +58,7 @@ ________________________________________
 ✔ Win
 If guessed letters match the secret word:
 ____YOU_SAVED_A_LIFE!!!____
+
 ❌ Lose
 If mistakes reach 6:
 ____YOU_KILLED_THE_MAN!!!____
