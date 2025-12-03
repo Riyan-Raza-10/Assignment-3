@@ -29,12 +29,6 @@ a–z	Guess a letter
 any other key	Treated as a letter input
 Game runs until you guess the word or reach 6 mistakes	
 ________________________________________
-🖥️ How to Compile & Run
-Windows
-gcc hangman.c -o hangman.exe
-hangman.exe
-Make sure you have GCC installed (via MinGW or similar).
-________________________________________
 📌 Code Overview
 displayHangman(int mistakes)
 Draws the ASCII hangman depending on the number of incorrect guesses.
@@ -51,6 +45,7 @@ ________________________________________
 You can easily customize the game:
 Change the secret word:
 char word[] = "vampire";
+
 Add difficulty levels
 (easy: long words, hard: short words)
 ________________________________________
