@@ -80,8 +80,10 @@ int main() {
         displayHangman(mistakes);
         printf("You lost! The word was: %s\n", word);
         printf("____YOU_KILLED_THE_MAN!!!____");
+		system("pause");
     }
 
     return 0;
 }
+
 
